@@ -39,7 +39,7 @@ public class SaludarServlet extends HttpServlet {
         session.setAttribute("mensaje", "Esto es un saludos que se verá en la próxima página");
 
         /* Asignamos valores a la vista jsp, mediante el contexto Request*/
-        request.setAttribute("saludo", "Hola, mi nombre es Zsamer. ¿Cuál es tu nombre?");
+        request.setAttribute("saludo", "Hola, mi nombre es Juanito ¿Cuál es tu nombre?");
         request.setAttribute("titulo", "Servlet SaludarServlet");
 
         /* El Servlet selecciona la vista saludar.jsp y
